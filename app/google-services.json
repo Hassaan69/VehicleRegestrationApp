@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "368620839724",
+    "firebase_url": "https://vehicleregestrationapp.firebaseio.com",
+    "project_id": "vehicleregestrationapp",
+    "storage_bucket": "vehicleregestrationapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368620839724:android:2d9571ecab365eba474289",
+        "android_client_info": {
+          "package_name": "com.example.vehicleregestrationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368620839724-t7vcmom2b8nh2q1ft7bt1sco8mstve5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmPDuc9UgEmQuadE5qFgV_h7L7Wvm6zUU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "368620839724-t7vcmom2b8nh2q1ft7bt1sco8mstve5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

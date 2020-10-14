@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/rvimageView"
+        android:layout_width="104dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/rvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/rvimageView"
+        app:layout_constraintTop_toTopOf="@+id/rvimageView" />
+
+    <TextView
+        android:id="@+id/rvUserPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/rvUserName"
+        app:layout_constraintTop_toBottomOf="@+id/rvUserName" />
+
+    <TextView
+        android:id="@+id/rvUserAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/rvUserPhone"
+        app:layout_constraintTop_toBottomOf="@+id/rvUserPhone" />
+
+    <TextView
+        android:id="@+id/rvUserCnic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/rvimageView"
+        app:layout_constraintStart_toStartOf="@+id/rvUserPhone"
+        app:layout_constraintTop_toBottomOf="@+id/rvUserAddress" />
+</androidx.constraintlayout.widget.ConstraintLayout>

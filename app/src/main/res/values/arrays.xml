@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cartypes">
+        <item>Select Car Type</item>
+        <item> 4 Door Car </item>
+        <item>2 Door Car</item>
+        <item>Hatchback</item>
+        <item>SUV</item>
+        <item>Truck</item>
+        <item>Minivan</item>
+        <item>Sports Car</item>
+    </string-array>
+
+    <string-array name="Q1">
+        <item>Select Answer</item>
+        <item>Speeding up</item>
+        <item>Parking</item>
+        <item>Emergency Stop</item>
+        <item>Non of these</item>
+
+    </string-array>
+
+    <string-array name="Q2">
+        <item>Select Answer</item>
+        <item>Mandatory</item>
+        <item>Regulatory</item>
+        <item>Fashion</item>
+        <item>Show off</item>
+    </string-array>
+
+    <string-array name="Q3">
+        <item>Select Answer</item>
+        <item>Park lights (side lights)</item>
+        <item>Front and rear fog lights</item>
+        <item>Dipped headlights</item>
+        <item>All of the above</item>
+    </string-array>
+    <string-array name="Q4">
+        <item>Select Answer</item>
+        <item>40 kms</item>
+        <item>80 kms</item>
+        <item>70 kms</item>
+        <item>50 kms</item>
+    </string-array>
+    <string-array name="Q5">
+        <item>Select Answer</item>
+        <item>Breaks</item>
+        <item>Lights</item>
+        <item>Tyre</item>
+        <item>All of the above</item>
+
+    </string-array>
+
+</resources>
